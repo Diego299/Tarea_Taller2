@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos adicionales para el formulario */
+        .formulario-contacto {
+            padding: 50px 0;
+            background-color: #f9f9f9;
+        }
+        .contenedor-formulario {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        .contenedor-formulario h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .contenedor-formulario form {
+            display: grid;
+            gap: 20px;
+        }
+        .contenedor-formulario input[type="text"],
+        .contenedor-formulario input[type="email"],
+        .contenedor-formulario textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+        .contenedor-formulario textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+        .contenedor-formulario input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 16px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        .contenedor-formulario input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="acerca.html">Acerca de</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Contacto</h1>
+            <h2>Ponte en contacto con nosotros</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #fff;"></path>
+        </svg></div>
+    </header>
+    <main>
+        <section class="formulario-contacto">
+            <div class="contenedor">
+                <div class="contenedor-formulario">
+                    <h2>Formulario de Contacto</h2>
+                    <form action="submit_tu_formulario_contacto.php" method="POST">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="contenedor-formulario">
+                    <h2>Formulario de Búsqueda de Empleados</h2>
+                    <form action="submit_tu_formulario_empleados.php" method="POST">
+                        <input type="text" name="nombre_empleado" placeholder="Nombre del empleado">
+                        <input type="text" name="cargo" placeholder="Cargo">
+                        <input type="text" name="ubicacion" placeholder="Ubicación">
+                        <input type="submit" value="Buscar">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>095856495</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>dfalcones777@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Quito/Ecuador/ITSQMET</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Diego Falcones</h2>
+    </footer>
+</body>
+</html>
