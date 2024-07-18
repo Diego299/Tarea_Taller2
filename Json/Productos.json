@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nombre": "Producto 1",
+        "precio": 199.99,
+        "imagen": "img/imagen1.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Producto 2",
+        "precio": 299.99,
+        "imagen": "img/imagen2.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Producto 3",
+        "precio": 399.99,
+        "imagen": "img/imagen3.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Producto 4",
+        "precio": 499.99,
+        "imagen": "img/imagen4.webp"
+    },
+    {
+        "id": 5,
+        "nombre": "Producto 5",
+        "precio": 599.99,
+        "imagen": "img/imagen5.webp"
+    },
+    {
+        "id": 6,
+        "nombre": "Producto 6",
+        "precio": 699.99,
+        "imagen": "img/imagen6.webp"
+    },
+    {
+        "id": 7,
+        "nombre": "Producto 7",
+        "precio": 799.99,
+        "imagen": "img/imagen7.webp"
+    },
+    {
+        "id": 8,
+        "nombre": "Producto 8",
+        "precio": 899.99,
+        "imagen": "img/imagen8.webp"
+    },
+    {
+        "id": 9,
+        "nombre": "Producto 9",
+        "precio": 999.99,
+        "imagen": "img/imagen9.webp"
+    }
+]

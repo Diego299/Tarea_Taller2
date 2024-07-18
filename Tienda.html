@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acerca de</title>
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="stylesheet" href="CSS/Estilos2.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="acerca.html">Acerca de</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="tienda.html">Tienda</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Tienda en Línea</h1>
+            <h2>Compra con Nosotros</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <body>
+        <div id="contenedor" class="contenedor">
+            <!-- Productos -->
+            <div>
+                <img src="Imagenes/telescopio1.webp" alt="producto 1" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 1</p>
+                    <p class="precio">$199<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="Imagenes/ovnis.jpg" alt="producto 2" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 2</p>                   
+                    <p class="precio">$299<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="Imagenes/Maquetas1.jpg" alt="producto 3" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 3</p>                   
+                    <p class="precio">$399<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="Imagenes/Libros1.webp" alt="producto 4" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 4</p>                   
+                    <p class="precio">$499<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="Imagenes/Juegos1.webp" alt="producto 5" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 5</p>                   
+                    <p class="precio">$599<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="Imagenes/telescopio2.jpg" alt="producto 6" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 6</p>                   
+                    <p class="precio">$699<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="Imagenes/maqueta2.jpg" alt="producto 7" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 7</p>                   
+                    <p class="precio">$799<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="Imagenes/libro2.avif" alt="producto 8" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 8</p>                   
+                    <p class="precio">$899<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="Imagenes/telescopio3.webp" alt="producto 9" height="1000px" width="1000px">
+                <div class="informacion">
+                    <p>Producto 9</p>                   
+                    <p class="precio">$999<span>.99</span></p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor del carrito de compras -->
+        <div id="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="lista-carrito">
+                <!-- Los productos añadidos se mostrarán aquí -->
+            </div>
+            <div id="total-carrito">
+                <p>Total: $<span id="total">0.00</span></p>
+            </div>
+        </div>
+
+        <script src="JS/Tienda.js"></script>
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Teléfono</h4>
+                    <p>095856495</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Email</h4>
+                    <p>dfalcones777@gmail.com</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Ubicación</h4>
+                    <p>Quito/Ecuador/ITSQMET</p>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Diego Falcones</h2>
+        </footer>
+    </body>
+</html>
